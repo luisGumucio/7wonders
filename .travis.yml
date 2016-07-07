@@ -3,5 +3,5 @@ notifications:
   slack:
     rooms:
       - softure-m3:kp1tvSJiG7B2x3kj5Lq6nZNq#travis
-script:
-   - ./gradlew build connectedCheck
+before_install:
+ - chmod +x gradlew
