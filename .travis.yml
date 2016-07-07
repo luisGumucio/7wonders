@@ -1,0 +1,6 @@
+language: java
+notifications:
+  slack:
+    rooms:
+      - softure-m3:kp1tvSJiG7B2x3kj5Lq6nZNq#travis
+script: ant default
