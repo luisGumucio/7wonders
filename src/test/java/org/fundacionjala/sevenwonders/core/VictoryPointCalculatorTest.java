@@ -106,7 +106,7 @@ public class VictoryPointCalculatorTest {
 
     @Test
     public void testCalculateFiveCivicBuilding() {
-        int expected = 15;
+        int expected = 10;
         cardList.add(buildingOne);
         cardList.add(buildingTwo);
         cardList.add(buildingThree);
